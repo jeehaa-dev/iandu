@@ -244,6 +244,10 @@ function saringKatalog() {
       !kata || (m.nama + " " + m.kategori + " " + m.deskripsi).toLowerCase().includes(kata);
     m.el.hidden = !(cocokKategori && cocokKata);
   });
+
+  // Tampilkan pesan "Menu tidak ditemukan" hanya jika tidak ada menu yang cocok
+  const adaHasil = menu.some((m) => !m.el.hidden);
+  $("#katalog-kosong").hidden = adaHasil;
 }
 
 $("#form-cari").addEventListener("submit", (e) => {

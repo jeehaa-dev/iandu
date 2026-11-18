@@ -1,7 +1,7 @@
 /* ===== FITUR FONT POPPINS ===== */
 @font-face {
     font-family: "Poppins";
-    src: url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+    src: url("ASSET/fonts/Poppins-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -9,7 +9,7 @@
   
   @font-face {
     font-family: "Poppins";
-    src: url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+    src: url("ASSET/fonts/Poppins-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -17,7 +17,7 @@
   
   @font-face {
     font-family: "Poppins";
-    src: url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+    src: url("ASSET/fonts/Poppins-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -25,7 +25,7 @@
   
   @font-face {
     font-family: "Poppins";
-    src: url("assets/fonts/Poppins-Bold.ttf") format("truetype");
+    src: url("ASSET/fonts/Poppins-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -33,10 +33,10 @@
   
   /* ===== FITUR WARNA ===== */
   :root {
-    --hijau-tua: #363434;
+    --hijau-tua: #0a0a0a;
     --hijau: #4f4d4c;
     --hijau-muda: #757372;
-    --aksen: #5f5d5b;
+    --aksen: #898989;
     --aksen-terang: #f8f8f2;
     --krem: #faf5ee;
     --krem-tua: #efe3d3;
